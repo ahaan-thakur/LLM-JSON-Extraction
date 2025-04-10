@@ -1,4 +1,4 @@
-# Company Performance Metrics Extractor
+# LLM-JSON-Extraction
 
 ## Overview
 This tool extracts structured information from natural language queries about company performance metrics. It leverages the Groq API with LLaMA 3.1 to parse queries and maintain a history of previous extractions.
