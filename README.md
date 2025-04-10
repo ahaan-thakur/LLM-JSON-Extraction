@@ -30,10 +30,8 @@ GROQ_API_KEY=your_api_key_here
 
 Run the Jupyter notebook `main.ipynb` and enter your query when prompted.
 
-### Example Queries
-- "What was Amazon's revenue in the last quarter?"
-- "Compare GMV for Walmart and Target between January and March 2023"
-- "Show me Netflix subscriber growth since 2022"
+### Example Query
+- "Amazon is analysing profits from year 2019-2020"
 
 ### Output Format
 The tool extracts information into a structured JSON format with the following fields:
@@ -54,4 +52,4 @@ If dates are not specified in the query, the tool defaults to a one-year period 
 7. Results are displayed to the user
 
 ## History
-The tool maintains a history of up to 6 previous extractions in `history.json`. This can be useful for tracking what data has been requested or for implementing features like "compare to previous query."
+The tool maintains a history of up to 6 previous extractions in `history.json`. This can be useful for tracking what data has been requested."
