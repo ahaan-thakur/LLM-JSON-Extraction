@@ -52,4 +52,4 @@ If dates are not specified in the query, the tool defaults to a one-year period 
 7. Results are displayed to the user
 
 ## History
-The tool maintains a history of up to 6 previous extractions in `history.json`. This can be useful for tracking what data has been requested."
+The tool maintains a history of up to 6 previous extractions in `history.json`. This can be useful for tracking what data has been requested.
