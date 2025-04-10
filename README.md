@@ -1,4 +1,4 @@
-# LLM-JSON-Extraction
+# Company Performance Metrics Extractor
 
 ## Overview
 This tool extracts structured information from natural language queries about company performance metrics. It leverages the Groq API with LLaMA 3.1 to parse queries and maintain a history of previous extractions.
@@ -54,4 +54,4 @@ If dates are not specified in the query, the tool defaults to a one-year period 
 7. Results are displayed to the user
 
 ## History
-Th
+The tool maintains a history of up to 6 previous extractions in `history.json`. This can be useful for tracking what data has been requested or for implementing features like "compare to previous query."
